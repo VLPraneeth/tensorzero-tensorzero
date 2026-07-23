@@ -11,7 +11,7 @@ workspace = true
 test-support = ["dep:mockall"]
 
 [dependencies]
-mockall = { version = "0.14", optional = true }
+mockall = { version = "0.15", optional = true }
 durable-tools-spawn.workspace = true
 durable.workspace = true
 tokio.workspace = true
@@ -42,5 +42,5 @@ tensorzero-optimizers = { path = "../tensorzero-optimizers" }
 indexmap = "2.13.1"
 
 [dev-dependencies]
-mockall = "0.14"
+mockall = "0.15"
 durable-tools = { path = ".", features = ["test-support"] }
