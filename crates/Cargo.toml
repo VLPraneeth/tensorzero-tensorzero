@@ -59,7 +59,7 @@ toml = { version = "1.0.6", features = ["preserve_order"] }
 async-stream = "0.3.5"
 async-trait = "0.1.89"
 http = "1.4.0"
-infer = "0.19.0"
+infer = "0.22.0"
 tokio-stream = "0.1.15"
 tokio = { version = "1.52.3", features = ["full"] }
 tokio-util = { version = "0.7.17", features = ["rt", "time"] }
@@ -85,9 +85,9 @@ minijinja = { version = "2.19.0", features = [
 ] }
 url = { version = "2.5.8", features = ["serde"] }
 google-cloud-auth = "1.10.0"
-object_store = { version = "0.13.2", features = ["serde", "aws", "gcp"] }
-arrow = { version = "58.3.0", default-features = false, features = ["json"] }
-parquet = { version = "58.3.0", default-features = false, features = ["arrow", "async", "snap", "zstd"] }
+object_store = { version = "0.14.1", features = ["serde", "aws", "gcp"] }
+arrow = { version = "59.3.0", default-features = false, features = ["json"] }
+parquet = { version = "59.3.0", default-features = false, features = ["arrow", "async", "snap", "zstd"] }
 rand = "0.10.1"
 ts-rs = { version = "12.0.1", features = [
     "serde-compat",
@@ -118,7 +118,7 @@ init-tracing-opentelemetry = { version = "0.38.0", features = ["xray"] }
 tracing-opentelemetry-instrumentation-sdk = { version = "0.38.0", features = [
     "tracing_level_info",
 ] }
-tower-http = { version = "0.6.10", features = ["trace"] }
+tower-http = { version = "0.7.1", features = ["trace"] }
 mime = { git = "https://github.com/hyperium/mime", rev = "1ef137c7358fc64e07c8a640e4e9ba2a784b7f7d", features = [
     "serde1",
 ] }
@@ -137,7 +137,7 @@ metrics-exporter-prometheus = { version = "0.18.1", features = [
     "http-listener",
 ], default-features = false }
 schemars = "1.1.0"
-serde_arrow = { version = "0.14", features = ["arrow-58"] }
+serde_arrow = { version = "0.15", features = ["arrow-58"] }
 blake3 = "1.8.5"
 moka = { version = "0.12.15", features = ["sync"] }
 durable = { git = "https://github.com/tensorzero/durable", rev = "b5f2664bc12e154a3ed00281c1a14a8c7406eae1" }
