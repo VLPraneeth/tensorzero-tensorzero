@@ -44,7 +44,7 @@ default = []
 
 [dev-dependencies]
 googletest = { workspace = true }
-rmcp = { version = "1.7.0", features = [
+rmcp = { version = "3.4.1", features = [
     "client",
     "transport-streamable-http-client-reqwest",
 ] }
@@ -58,5 +58,5 @@ secrecy = { workspace = true }
 uuid = { workspace = true }
 tensorzero-unsafe-helpers = { path = "../tensorzero-unsafe-helpers" }
 flate2 = "1.1.8"
-zstd = "0.13.3"
-brotli = "8.0.2"
+zstd = "0.14.0"
+brotli = "9.0.0"
